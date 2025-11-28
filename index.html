@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="inc/css/style.css" />
+    <script src="inc/js/script.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <div class="scores">
+            <h1 id="score">000</h1>
+            <h1 id="highScore">000</h1>
+        </div>
+        <div class="game-border-1">
+            <div class="game-border-2">
+                <div class="game-border-3">
+                    <div id="game-board"></div>
+
+                    <div id="game-over-screen" class="hidden">
+                        <h2>GAME OVER</h2>
+                        <p>Sua Pontuação Final: <span id="final-score">000</span></p>
+                        <p>Pressione **Espaço** para jogar novamente.</p>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <h1 id="instruction-text">Pressione espaço para começar o jogo!</h1>
+    <img id="logo" src="inc/img/snake-game-ai-gen.png" alt="snake-logo" />
+</body>
+
+</html>
